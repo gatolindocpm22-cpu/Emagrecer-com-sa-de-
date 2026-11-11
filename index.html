@@ -1,0 +1,425 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emagreça Comendo | Seu Guia Saudável</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7faf7;
+    color: #333;
+}
+
+header {
+    background: #167b49;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+nav {
+    background: #105f38;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.hero {
+    padding: 75px 20px;
+    text-align: center;
+    background: linear-gradient(120deg,#d8f5df,#ffffff);
+}
+
+.hero h2 {
+    color: #167b49;
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 650px;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    background: #16834b;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #105f38;
+}
+
+section {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #167b49;
+    margin-bottom: 25px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px #0002;
+}
+
+.card h3 {
+    color: #167b49;
+    margin: 12px;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+.icon {
+    font-size: 42px;
+}
+
+.receitas {
+    background: #eaf7ed;
+}
+
+.produto {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    max-width: 550px;
+    margin: auto;
+    box-shadow: 0 3px 15px #0002;
+}
+
+.produto h3 {
+    color: #167b49;
+    font-size: 24px;
+    margin: 15px;
+}
+
+.produto p {
+    line-height: 1.7;
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#resultado {
+    margin-top: 15px;
+    color: #167b49;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.aviso {
+    font-size: 13px;
+    color: #666;
+    margin-top: 15px;
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.whatsapp:hover {
+    background: #128C4A;
+}
+
+footer {
+    background: #105f38;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+}
+
+@media(max-width:600px) {
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🥗 EMAGREÇA COMENDO</h1>
+    <p>Alimentação saudável e qualidade de vida</p>
+</header>
+
+<nav>
+    <a href="#inicio">Início</a>
+    <a href="#dicas">Dicas</a>
+    <a href="#receitas">Receitas</a>
+    <a href="#imc">Calculadora</a>
+    <a href="#ebook">E-book</a>
+</nav>
+
+<div class="hero" id="inicio">
+    <h2>Emagreça sem deixar de comer!</h2>
+    <p>
+        Descubra como melhorar sua alimentação,
+        preparar refeições deliciosas e desenvolver
+        hábitos saudáveis.
+    </p>
+    <a href="#ebook" class="btn">CONHECER O E-BOOK</a>
+</div>
+
+<section id="dicas">
+<div class="container">
+
+    <h2>🌿 Dicas para emagrecer com saúde</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🥗</div>
+            <h3>Coma melhor</h3>
+            <p>Inclua frutas, verduras, legumes e proteínas nas refeições.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💧</div>
+            <h3>Beba água</h3>
+            <p>Mantenha seu corpo hidratado durante o dia.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🚶</div>
+            <h3>Faça exercícios</h3>
+            <p>Caminhadas e atividades físicas ajudam na saúde.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">😴</div>
+            <h3>Durma bem</h3>
+            <p>Tenha uma rotina de sono adequada.</p>
+        </div>
+
+    </div>
+</div>
+</section>
+
+<section class="receitas" id="receitas">
+<div class="container">
+
+    <h2>🍎 Receitas saudáveis</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🍳</div>
+            <h3>Café da manhã</h3>
+            <p>Ovos mexidos, pão integral e uma fruta.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🍛</div>
+            <h3>Almoço</h3>
+            <p>Arroz, feijão, frango e salada.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🥣</div>
+            <h3>Jantar</h3>
+            <p>Sopa de legumes com frango.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🍌</div>
+            <h3>Lanche</h3>
+            <p>Banana, aveia e iogurte natural.</p>
+        </div>
+
+    </div>
+</div>
+</section>
+
+<section id="imc">
+<div class="container">
+
+    <h2>📊 Calculadora de IMC</h2>
+
+    <div class="produto">
+
+        <p>Digite seu peso e sua altura:</p>
+
+        <input type="number" id="peso"
+        placeholder="Peso em kg" step="0.1">
+
+        <input type="number" id="altura"
+        placeholder="Altura em metros (ex: 1.70)" step="0.01">
+
+        <button class="btn" onclick="calcular()">
+            CALCULAR IMC
+        </button>
+
+        <div id="resultado"></div>
+
+    </div>
+
+    <p class="aviso">
+        O IMC é uma ferramenta de triagem e não substitui
+        uma avaliação profissional.
+    </p>
+
+</div>
+</section>
+
+<section id="ebook">
+<div class="container">
+
+    <h2>📘 NOSSO E-BOOK</h2>
+
+    <div class="produto">
+
+        <div class="icon">📗</div>
+
+        <h3>Como Emagrecer Comendo</h3>
+
+        <p>
+            Descubra informações sobre alimentação equilibrada,
+            receitas deliciosas e hábitos saudáveis para
+            melhorar sua qualidade de vida.
+        </p>
+
+        <p>
+            <strong>Comece hoje a transformar sua alimentação!</strong>
+        </p>
+
+        <a
+        href="https://wa.me/5562991424216?text=Ol%C3%A1!%20Tenho%20interesse%20no%20e-book%20Como%20Emagrecer%20Comendo.%20Gostaria%20de%20saber%20como%20comprar."
+        target="_blank"
+        rel="noopener"
+        class="btn whatsapp">
+
+        📲 COMPRAR PELO WHATSAPP
+
+        </a>
+
+        <p class="aviso">
+            Atendimento direto pelo WhatsApp.
+        </p>
+
+    </div>
+</div>
+</section>
+
+<section>
+<div class="container">
+    <h2>❤️ Cuide de você!</h2>
+    <p>
+        Pequenas mudanças na alimentação e na rotina
+        podem ajudar a construir uma vida mais saudável.
+    </p>
+    <a href="#inicio" class="btn">VOLTAR AO INÍCIO</a>
+</div>
+</section>
+
+<footer>
+    <h3>🥗 EMAGREÇA COMENDO</h3>
+    <p>Saúde, alimentação e qualidade de vida.</p>
+    <p>WhatsApp: (62) 99142-4216</p>
+    <p>© 2026 - Todos os direitos reservados.</p>
+</footer>
+
+<script>
+function calcular() {
+
+    let peso = Number(document.getElementById("peso").value);
+    let altura = Number(document.getElementById("altura").value);
+    let resultado = document.getElementById("resultado");
+
+    if (peso <= 0 || altura <= 0 ||
+        !Number.isFinite(peso) ||
+        !Number.isFinite(altura)) {
+
+        resultado.innerHTML = "Digite seu peso e altura corretamente.";
+        return;
+    }
+
+    let imc = peso / (altura * altura);
+    let classificacao = "";
+
+    if (imc < 18.5) {
+        classificacao = "Abaixo do peso";
+    } else if (imc < 25) {
+        classificacao = "Faixa considerada adequada";
+    } else if (imc < 30) {
+        classificacao = "Sobrepeso";
+    } else if (imc < 35) {
+        classificacao = "Obesidade grau I";
+    } else if (imc < 40) {
+        classificacao = "Obesidade grau II";
+    } else {
+        classificacao = "Obesidade grau III";
+    }
+
+    resultado.innerHTML =
+        "Seu IMC: " + imc.toFixed(1) +
+        "<br>Classificação: " + classificacao;
+}
+</script>
+
+</body>
+</html>
